@@ -33,7 +33,7 @@ function setup() {
 }
 
 function draw() {
-  stroke(0, 20);
+  stroke(0, 30);
   console.log(life);
   system.renderSystem();
   if (life < 0) {
